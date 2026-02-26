@@ -7,7 +7,7 @@
 ENSEMBLE captures your audio into a circular buffer and continuously re-reads it through 8 voices with golden-ratio panning, incommensurate LFOs, and dual MASS/DUST grain layers; producing dense, breathing textures from any input.
 <br>
 
-[![youtube link](https://img.youtube.com/vi/Feew1IG8Soc/0.jpg)]([https://www.youtube.com](https://youtu.be/Feew1IG8Soc))
+[![youtube link](https://img.youtube.com/vi/Feew1IG8Soc/0.jpg)]([https://www.youtube.com](https://youtu.be/Feew1IG8Soc]) <br>
 ↑ Click for Youtube Video Demo ↑
 <br>
 ---
