@@ -3,7 +3,7 @@
   <img src="ensemble-logo.png"><br>
 **A spectral texture forge that transforms live audio into evolving, Penderecki-inspired orchestral swarms.**
 
-ENSEMBLE captures your audio into a circular buffer and continuously re-reads it through 8 voices with golden-ratio panning, incommensurate LFOs, and dual MASS/DUST grain layers — producing dense, breathing string-like textures from any input.
+ENSEMBLE captures your audio into a circular buffer and continuously re-reads it through 8 voices with golden-ratio panning, incommensurate LFOs, and dual MASS/DUST grain layers; producing dense, breathing textures from any input.
 
 ---
 
@@ -22,19 +22,19 @@ Rescan plugins in your DAW. ENSEMBLE appears as an audio effect.
 ## How to Use
 
 1. Place ENSEMBLE on an **effects/send track** or your **master bus** — it processes incoming audio, it's not an instrument.
-2. Feed audio into it — synths, guitar, vocals, samples, whatever. Play sounds one at a time and let the texture build between each.
+2. Feed audio into it: synths, guitar, vocals, samples, whatever. Play sounds one at a time and let the texture build between each.
 3. Dial in the parameters as it plays back to you. Start with defaults and experiment.
-4. Press **CLEAR** to wipe the buffer and start fresh whenever you want a clean slate.
+4. Press **CLEAR** to wipe the buffer and start fresh whenever you want to erase the current audio playback.
 
 ## Tips
 
 - Feed sounds in **one by one** in real time. Let each sound layer into the texture before adding the next.
-- **Melodic and harmonic sources** work best — pads, guitars, vocals, strings, textural samples. Drums and percussion tend to produce harsh results.
+- **Melodic and harmonic sources** work best. Pads, guitars, vocals, strings, textural samples. Drums and percussion tend to produce harsh results.
 - **PERSIST** controls how long audio stays in the buffer. Higher values build denser, more layered textures over time.
 - **BLEND** shifts between pointillist stippling (left) and smeared bowing (right). Try automating it slowly.
 - **EVOLVE** controls how much the texture moves on its own. High values create constant internal motion without any input.
 - **DRY** mixes your original signal back in. Keep it low for pure texture, or bring it up for parallel processing.
-- The **12-band EQ** is great for carving out mud or taming harsh frequencies in the texture.
+- The **12-band EQ** is for carving out mud or taming harsh frequencies in the texture.
 - The **bandpass filter** (toggle on, then sweep the frequency) can isolate a specific range of the texture for focused, narrow sounds.
 
 ---
@@ -148,10 +148,10 @@ Rescan plugins in your DAW. ENSEMBLE appears as an audio effect.
 
 - Press **CLEAR** to reset buffers and start over
 - Drums don't work well — this is oriented toward melodic, harmonic, and textural sounds
-- Best use case: put ENSEMBLE on your **master bus** and feed multiple sounds into it one by one
+- Best use case: put ENSEMBLE on your **master bus** or **send fx bus** and feed multiple sounds into it one by one
 - Start with default settings, play something, and let the texture build
 - Use **PERSIST** to control how dense the texture gets over time
 - Turn **DRY** up if you want to hear your original signal mixed in
-- The **Processing Lab** knobs all start at 0 (off) — the core engine is the weave + grains
+- The **Processing Lab** knobs all start at 0 (off), the core engine is the weave + grains
 
 See [BUILD.md](BUILD.md) for full instructions. Requires JUCE 8.0.4 and a C++ compiler (Visual Studio 2022+ on Windows, Xcode on macOS).
