@@ -1,6 +1,6 @@
 # ENSEMBLE
 <br>
-  <img src="ensemble-logo2.png"><br>
+  <img src="ensemble-logo3.png"><br>
   
 **A spectral texture forge that transforms live audio into evolving, Penderecki-inspired orchestral swarms.**
 
