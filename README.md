@@ -12,6 +12,9 @@ ENSEMBLE captures your audio into a circular buffer and continuously re-reads it
 ↑ Click for Youtube Video Demo ↑
 <br>
 ---
+<br>
+  <img src="Ensemble v.6.5b GUI Plugin Screenshot 3-4-26.png"><br>
+<hr>
 
 ## Installation
 
